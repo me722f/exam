@@ -1,0 +1,410 @@
+@media (max-width: 1200px) {
+  nav .dropdown-menu {
+    width: 900px !important;
+    left: -600px !important;
+  }
+}
+
+@media (max-width: 991px) {
+
+  /* NAV DROPDOWN */
+  nav .dropdown-menu {
+    width: 100% !important;
+    left: 0 !important;
+    min-height: unset !important;
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+
+  /* POPULAR LOCATIONS - 3 columns in dropdown */
+  nav .background-photo,
+  nav .background-photo2,
+  nav .background-photo3 {
+    margin-top: 8px;
+  }
+
+  /* PROPERTY TYPES - 2 column grid */
+  nav .words {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* HERO */
+  .first h1 {
+    font-size: clamp(32px, 5vw, 60px) !important;
+  }
+
+  /* SECTION HEADERS */
+  main .one h2,
+  main .two h2 {
+    font-size: 36px;
+  }
+
+  main .one p,
+  main .two p {
+    font-size: 16px;
+  }
+
+  /* SERVICES TABS */
+  #servicesTabs {
+    flex-wrap: wrap !important;
+    overflow-x: unset;
+  }
+
+  #servicesTabs .nav-link {
+    padding: 10px 14px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .service-title {
+    font-size: 24px;
+  }
+
+  .service-desc {
+    font-size: 16px;
+  }
+
+  .service-img {
+    height: 300px;
+  }
+
+  .service-badge {
+    bottom: -16px;
+    left: 10px;
+    padding: 16px;
+  }
+
+  .badge-number {
+    font-size: 20px;
+  }
+
+  .badge-label {
+    font-size: 14px;
+  }
+
+  /* TESTIMONIALS */
+  .testimonial-prev {
+    left: 4px;
+  }
+
+  .testimonial-next {
+    right: 4px;
+  }
+
+  /* FAQ */
+  .faq-btn {
+    font-size: 17px !important;
+    padding: 18px 20px !important;
+  }
+
+  /* CONTACT CARDS */
+  .contact-card {
+    padding: 20px;
+  }
+
+  /* CONTACT INFO + FORM */
+  .contact-info-card {
+    padding: 24px !important;
+  }
+
+  .contact-form-card {
+    padding: 24px !important;
+  }
+
+  .form-main-title {
+    font-size: 24px !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  /* HERO */
+  .first h1 {
+    font-size: 36px !important;
+  }
+
+  .first p {
+    font-size: 15px !important;
+  }
+
+  /* SECTION HEADERS */
+  main .one h2,
+  main .two h2 {
+    font-size: 30px;
+  }
+
+  main .one p,
+  main .two p {
+    font-size: 15px;
+  }
+
+  /* PROPERTY CARDS */
+  .property-card {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  /* SERVICES */
+  .service-title {
+    font-size: 22px;
+  }
+
+  .service-img {
+    height: 260px;
+  }
+
+  .service-badge {
+    bottom: 10px;
+    left: 10px;
+  }
+
+  /* TESTIMONIALS */
+  .testimonial-card {
+    padding: 24px;
+  }
+
+  .testimonial-quote {
+    font-size: 15px !important;
+  }
+
+  .testimonial-name {
+    font-size: 16px !important;
+  }
+
+  .testimonial-prev,
+  .testimonial-next {
+    display: none;
+  }
+
+  .testimonial-dots {
+    margin-top: 20px;
+  }
+
+  /* FAQ */
+  .faq-btn {
+    font-size: 15px !important;
+    padding: 16px 18px !important;
+  }
+
+  .faq-body {
+    padding: 16px 20px !important;
+    font-size: 14px;
+  }
+
+  /* CONTACT - hide decorative shapes */
+  .contact-us::before,
+  .contact-us::after,
+  .contact-shape-circle-big,
+  .contact-shape-circle-small {
+    display: none;
+  }
+
+  /* CONTACT FORM */
+  .form-main-title {
+    font-size: 22px !important;
+  }
+
+  .send-btn {
+    font-size: 15px !important;
+  }
+
+  /* FOOTER */
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-logo {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  /* HERO */
+  .first h1 {
+    font-size: 48px !important;
+    padding-top: 80px !important;
+  }
+
+  .first p {
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  .last {
+    padding-block: 50px !important;
+  }
+
+  /* SECTION HEADERS */
+  main .one h2,
+  main .two h2 {
+    font-size: 32px;
+  }
+
+  .deco {
+    font-size: 14px !important;
+  }
+  .one p,
+  .two p,
+  .three p {
+    font-size: 20px !important;
+  }
+
+  /* SERVICES TABS - tighter on small phones */
+  #servicesTabs .nav-link {
+    padding: 8px 10px;
+    font-size: 16px;
+  }
+
+  .service-title {
+    font-size: 32px;
+  }
+
+  .service-desc {
+    font-size: 18px;
+  }
+
+  .service-features {
+    gap: 16px;
+  }
+
+  .service-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .service-img {
+    height: 300px;
+  }
+
+  .service-badge {
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* TESTIMONIALS */
+  .testimonial-card {
+    padding: 24px;
+  }
+
+  .testimonial-quote {
+    font-size: 18px !important;
+    line-height: 1.6;
+  }
+
+  .testimonial-prev,
+  .testimonial-next {
+    display: none;
+  }
+
+  .testimonial-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial-avatar {
+    width: 64px;
+    height: 64px;
+  }
+
+  .testimonial-name {
+    font-size: 18px !important;
+  }
+  .testimonial-role,
+  .testimonial-detail {
+    font-size: 14px !important;
+  }
+
+  /* FAQ */
+  .faq-btn {
+    font-size: 20px !important;
+    padding: 30px 25px !important;
+  }
+
+  .faq-body {
+    font-size: 18px !important;
+  }
+
+ 
+
+  .contact-us::before {
+    display: none;
+  }
+
+  .contact-us::after {
+    display: none;
+  }
+
+  .contact-shape-circle-big {
+    display: none;
+  }
+
+  .contact-shape-circle-small {
+    display: none;
+  }
+
+  .contact-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .contact-title {
+    font-size: 16px !important;
+  }
+
+  /* SOCIAL BUTTONS */
+  .social-btn {
+    width: 42px;
+    height: 42px;
+    font-size: 14px !important;
+  }
+
+  /* FORM */
+  .contact-form-card {
+    padding: 18px !important;
+  }
+
+  .form-main-title {
+    font-size: 20px !important;
+  }
+
+  .contact-input {
+    font-size: 14px !important;
+    padding: 10px 14px !important;
+  }
+
+  /* FOOTER */
+  .footer-logo {
+    font-size: 18px !important;
+  }
+
+  .footer-copy {
+    font-size: 13px;
+  }
+
+  .footer-bottom {
+    font-size: 13px;
+  }
+
+  .footer-social {
+    width: 34px;
+    height: 34px;
+  }
+  
+  
+}
+
+
